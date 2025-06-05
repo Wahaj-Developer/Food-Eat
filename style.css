@@ -57,3 +57,33 @@ body::before {
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
 }
+
+
+.navbar {
+   background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(155, 230, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.338);
+    padding: 1.5rem 4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ff221a;
+}
+
+.nav-links {
+
+    display: flex;
+    gap: 2rem;
+}
