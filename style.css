@@ -87,3 +87,22 @@ body::before {
     display: flex;
     gap: 2rem;
 }
+
+.nav-links a {
+
+    color: red;
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: red; 
+    transition: width 0.3s ease;
+}
