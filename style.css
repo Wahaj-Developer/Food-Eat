@@ -106,3 +106,23 @@ body::before {
     background-color: red; 
     transition: width 0.3s ease;
 }
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.hero {
+    padding: 8rem 4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
