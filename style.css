@@ -395,3 +395,40 @@ body::before {
     -webkit-text-fill-color: transparent;
 }
 
+
+.features .Our {
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.feature-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+}
+
+.feauture-icons {
+    font-size: 2.5rem;
+    color: #ff6b1a;
+    margin-bottom: 1.5rem;
+}
+
+
