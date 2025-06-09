@@ -432,3 +432,38 @@ body::before {
 }
 
 
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+@media (max-width:768px) {
+
+    .features{
+        padding: 2rem 1rem;
+    }
+
+    .features h2{
+        font-size: 2rem;
+    }
+
+    .feature-grid{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .feature-card{
+        padding: 1.5rem;
+    }
+
+
+}
