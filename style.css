@@ -507,3 +507,57 @@ body::before {
     line-height: 1.6;
     margin-bottom: 1.5rem;
 }
+
+
+.social-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.social{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(16, 16, 16, 0.105);
+}
+
+.social:hover{
+    background: #ff6b1a;
+    color: white;
+    transform: translateY(-3px);
+
+}
+
+.footer-section h3{
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.footer-section h3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 50px;
+    height: 2px;
+    background: #ff6b1a;
+}
+
+.footer-links{
+    list-style: none;
+}
+.footer-links li{
+    margin-bottom: 0.8rem;
+}
+
+
+
