@@ -560,4 +560,33 @@ body::before {
 }
 
 
+.footer-links a{
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover{
+    color: #ff6b1a;
+}
+
+.contant-info{
+
+    list-style: none;
+}
+
+.contant-info li{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.contant-info i{
+
+    color: #ff6b1a;
+    margin-top: 4px;
+}
+
 
