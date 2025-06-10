@@ -467,3 +467,43 @@ body::before {
 
 
 }
+
+
+
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 4rem 2rem 1rem;
+    margin-top: 4rem;
+}
+
+
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.footer-section{
+    padding: 0 1rem;
+}
+
+.footer-logo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-logo span{
+    color: #ff6b1a;
+}
+
+
+.footer-description{
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
