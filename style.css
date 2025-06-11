@@ -590,3 +590,46 @@ body::before {
 }
 
 
+
+.Newsletter{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.Newsletter input{
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid rgba(8, 8, 8, 0.425);
+    backdrop-filter: blur(10px);
+    color: #333;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.Newsletter button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #ff6b1a;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.Newsletter button:hover{
+    transform: translateY(-3px);
+}
+
+.footer-bottom{
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    padding-top:2rem ;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+}
+
