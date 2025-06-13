@@ -61,3 +61,33 @@ function showAlert(message) {
     }, 1500);
 }
 
+
+
+// Message For Book Table btn
+
+
+document.getElementById('bookTableBtn').addEventListener('click', function(e) {
+    e.preventDefault(); // Prevent default anchor behavior
+    
+    // Create overlay (optional)
+    const overlay = document.createElement('div');
+    overlay.className = 'alert-overlay';
+    
+    // Create alert box
+    const alertBox = document.createElement('div');
+    alertBox.className = 'custom-alert';
+    alertBox.textContent = 'Your table has been booked successfully! 🎉';
+    
+    // Append to body
+    document.body.appendChild(overlay);
+    document.body.appendChild(alertBox);
+    
+    // Remove alert after 3 seconds (optional)
+    setTimeout(() => {
+        alertBox.remove();
+        overlay.remove();
+    }, 1000);
+});
+
+
+
