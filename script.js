@@ -101,3 +101,27 @@ document.addEventListener('click', function(e) {
 });
 
 
+// Reuse your styled alert function
+function showAlert(message) {
+    // Create overlay (optional)
+    const overlay = document.createElement('div');
+    overlay.className = 'alert-overlay';
+
+    // Create alert box
+    const alertBox = document.createElement('div');
+    alertBox.className = 'custom-alert';
+    alertBox.textContent = message;
+
+    // Append to body
+    document.body.appendChild(overlay);
+    document.body.appendChild(alertBox);
+
+    // Remove after 3 seconds
+    setTimeout(() => {
+        alertBox.remove();
+        overlay.remove();
+    }, 3000);
+}
+
+
+
