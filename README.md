@@ -1,4 +1,4 @@
-#🍕 FoodEat Restaurant Website
+🍕 #FoodEat Restaurant Website
 A modern, interactive restaurant website with smooth animations, responsive design, and delightful user interactions. Perfect for food businesses looking to showcase their menu and services online.
 
 #✨ Key Features
