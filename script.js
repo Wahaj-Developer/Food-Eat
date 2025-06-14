@@ -91,3 +91,13 @@ document.getElementById('bookTableBtn').addEventListener('click', function(e) {
 
 
 
+document.addEventListener('click', function(e) {
+    const featureCard = e.target.closest('.feature-card');
+    if (!featureCard) return;
+
+    // Get the title (h3) of the clicked card
+    const featureTitle = featureCard.querySelector('h3').textContent;
+    showAlert(`🚨 ${featureTitle} is currently unavailable - Our delivery team will be back soon!`);
+});
+
+
