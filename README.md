@@ -27,11 +27,6 @@ Easy to customize – Change colors, content, or add real backend integration
 
 🚀Deploy it live or use as a template for your next food business website!
 
-📸Preview
-(Add a screenshot GIF or image here if possible)
-
-🔗 Live Demo: Your-Demo-Link-Here.com (optional)
-
 How to Use
 Clone the repo
 
